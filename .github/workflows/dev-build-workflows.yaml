@@ -95,7 +95,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: dev
-      url: https://github.com/tarathep/kie-tutorial-pipeline/actions/workflows/dev-tutorial-frontend-deploy.yml
+      url: https://github.com/Akanjana/nana-tutorial-pipeline/actions/workflows/dev-tutorial-frontend-deploy.yml
     needs: [unitest,analyze] # if on env sit don't use
     
     steps:
