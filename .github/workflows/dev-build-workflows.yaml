@@ -11,8 +11,8 @@ on:
       - develop
 
 env:
-  APP_NAME: [name]-tutorial-frontend
-  CONTAINER_REPOSITORY: "acr[name]tutorial001.azurecr.io"
+  APP_NAME: nana-tutorial-frontend
+  CONTAINER_REPOSITORY: "acrteachertutorial001.azurecr.io"
   IMAGE_TAG: "0.0.1-SNAPSHOT"
 
 jobs:
