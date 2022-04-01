@@ -123,8 +123,8 @@ jobs:
       uses: peter-evans/repository-dispatch@v1
       with:
         token: ${{ secrets.REPO_ACCESS_TOKEN }}
-        repository: tarathep/kie-tutorial-pipeline
-        event-type: kie-tutorial-frontend-cd-dev
+        repository: Akanjana/nana-tutorial-pipeline
+        event-type: nana-tutorial-frontend-cd-dev
         client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
 
 
